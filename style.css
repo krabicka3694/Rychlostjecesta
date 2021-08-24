@@ -1,0 +1,55 @@
+
+  td, th {
+      border: 2px solid gold;
+  }
+*{
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    border: white;
+    text-align: center;
+
+}
+
+
+h1 {font-size: 32px}
+strong {font-size: 24px}
+nav {text-align: center;
+background: black;}
+img {border-radius: 4px;
+width: 10vw;
+height: 20vh}
+.yohoo {text-align: center;
+background: black;}
+table {background-color: black;
+margin: 50px; text-align:center}
+.kviz {color: white; background:black;}
+.banner {display: flex; text-align: center; flex-direction: column; height:165px; color: black;
+background: black url('obrazky/lmanberg\ flag.jpg'); font-weight: bold; font-size: 32px
+ }
+#myList {list-style: square; list-style-position: inside;}
+li.item {padding: 2em}
+.redtext {color:red; padding: 2em}
+
+#odkaz {font-size:15px}
+
+.col {
+  background:rgb(32, 30, 30);
+  padding: 1em;
+  margin:2px;}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: 1;
+  
+}
+.col--1, .col--2  {
+  flex: grow 1 }
+.col--3 {
+  flex-shrink: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
